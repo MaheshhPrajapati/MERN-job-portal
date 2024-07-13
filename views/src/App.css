@@ -1,0 +1,286 @@
+
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body{
+  width: 100vw;
+}
+
+.outer-container{
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container{
+  box-shadow: 0px 10px 10px #121213;
+  width: 35%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* Jobs Container */
+.search-box{
+  width: 50%;
+  border-radius: 15px;
+  height: 1.6rem;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #ececec;
+  border: none;
+  padding-left: 1rem;
+}
+.search-box:hover{
+  transition: 0.5s all ease-in-out;
+  height: 2rem;
+  background-color: #ececec;
+  cursor: text;
+}
+.search-box:focus{  
+  height: 2rem;
+  background-color: #e4e4e4;
+  cursor: text;
+}
+
+/* Pop Up message css */
+.popUp {
+  position: absolute;
+  width: 250px;
+  background-color: #2a2a2b;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 10px 10px #121213;
+  padding-top: 25px;
+}
+
+.popUp-btn{
+  display: block;
+  margin: 15px auto 5px;
+}
+
+/* form css */
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.form input{
+  
+}
+.form *{
+  margin-bottom: 5px;
+}
+.form-head{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0rem;
+}
+.form textarea{
+}
+.form-label-input{
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.form-label-input .label-tag{
+  font-weight: 300;
+}
+.form-label-input input{
+  width: 200px;
+}
+.form-label-input .label-tag{}
+form .select{
+  width: 200px;
+  color: #607274;
+}
+form textarea{
+  height:50px;
+  width: 200px;
+}
+.red-color{
+  color: red;
+}
+
+.toggle-button{
+  margin: 1rem auto;
+}
+
+.submit-button{
+  border: 1.5px solid #3d1b1e;
+  border-radius: 100px;
+}
+
+.input-tag{
+  border:none;
+  border-bottom: 1.5px solid #3d1b1e;
+  background: transparent;
+}
+
+/* Message Component */
+
+.message-red-bar{
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.message-green-bar{
+  background-color: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* NavBar CSS */
+
+.navbar-outer-container{
+  color:#a7a7a7;
+}
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 92%;
+  margin: 1rem 3rem;
+}
+.Nav-title{
+  padding: 10px 2rem;
+  color: #646cff;
+  font-weight: 500;
+}
+.Nav-links{
+  padding: 10px 2rem;
+
+}
+.navbar-links{
+  padding-left: 20px;
+}
+
+/* Create job component */
+/* List Jobs Container */
+
+.jobs-Page-Container{
+  width: 80%;
+  margin: 0 auto;
+}
+.jobs-container-left-stick{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  width: 22.5%;
+  height: 90%;
+  padding-top: 1rem;
+}
+.job-wrapper{
+  margin: 5px 20px;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px #121213;
+  border-radius: 4px;
+}
+
+.job-position{
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.editLink{
+  text-align: right;
+  color: #646cff;
+  cursor: pointer;
+  font-weight: 500;
+}
+.jobDetail-position{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #a7a7a7;
+}
+.job-companyName{}
+
+.job-workType{}
+
+.job-inDetail{
+  margin-top: 0;
+  margin-left: 30%;
+  border: 2px solid #222222;
+  text-align: left;
+  padding: 1rem;
+  height: 80%;
+}
+
+.apply-btn{
+  background-color: #646cff;
+}
+
+/* About Page CSS */
+
+.about-page{
+  text-align: left;
+  margin: auto 10rem;
+}
+.about-title{
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+.about-techStack{
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+/* Admin */
+.radio-form{
+  text-align: left;
+  place-items: start;
+  margin-left: 2rem;
+}
+
+.admin-content{
+  margin-left: 2rem;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.admin-content tr *{
+  padding: 0 0.5rem;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.update-btn {
+  background-color: #007bff; /* Bootstrap blue */
+  padding: 5px 10px !important;
+}
+
+.delete-btn {
+  background-color: #dc3545; /* Bootstrap red */
+  padding: 5px 10px !important; /* Space between buttons */
+}
